@@ -19,7 +19,7 @@ Correos del equipo:
 * leo
 * Robertojimenez75@aragon.unam.mx
 * christianlara225@aragon.unam.mx
-* nes
+* Nestormiguel79@aragon.unam.mx
 * jazminmoctezuma771@aragon.unam.mx
 * isaaccortes08@aragon.unam.mx
 * martin.ramirezhilario@gmail.com
