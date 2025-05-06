@@ -16,7 +16,7 @@ Integrantes del equipo:
 
 Correos del equipo:
 
-* leo
+* leonardoesquivel58@aragon.unam.mx
 * Robertojimenez75@aragon.unam.mx
 * christianlara225@aragon.unam.mx
 * Nestormiguel79@aragon.unam.mx
