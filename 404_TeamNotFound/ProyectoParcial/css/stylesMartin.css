@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(0,51,0);
+    font-family: "Lexend", sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    background-image: url(../fotos/fondoSplatoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #d9d9d9;    
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    font-size: 40px;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+}
+
+.main-container > section:first-child{
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 0.5rem;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+.main-container > section:first-child h2{
+    font-size: 25px;
+}
+.main-container > section:first-child p,a{
+    font-size: 20px;
+    margin: 0.5rem;
+}
+.main-container > section:nth-child(2){
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0.5rem;
+}
+.main-container > section:nth-child(2) h2{
+    grid-row: 1;
+}
+.main-container > section:nth-child(2) article{
+    grid-row: 2/4;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.main-container > section:nth-child(2) article img{
+    width: 100%; /* o max-width: 100%; */
+    height: auto;
+    object-fit: contain;
+}
+footer{
+    width: 100%;
+    max-height: 200px;
+}
+.footer-container{
+    width: 100%;
+    padding: 43px 60px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    box-sizing: border-box;
+    background-color: #006600;
+}
+.footer-container > div:first-child h2{
+    grid-row: 1;
+    font-size: 25px;
+}
+.footer-container > div:nth-child(2){
+    display: flex;
+    grid-row: 2;
+    cursor: pointer;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem;
+}
+.footer-container > div:nth-child(2) img{
+    width: 50px;
+}
