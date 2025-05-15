@@ -1,0 +1,99 @@
+body {
+            font-family: "Outfit", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(../fotos/extras/fondoMonse.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-family: 'Pacifico', cursive;
+            font-size: 2.5rem;
+            margin: 30px 0;
+            text-shadow: 1px 1px 4px #000;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .imagen {
+            flex-shrink: 0;
+            margin-right: 30px;
+        }
+
+        .imagen img {
+            width: 300px; /* Cambia este valor para ajustar el tamaño */
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .contenido {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .contenido h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .contenido p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .redes img {
+            width: 40px;
+            margin: 10px;
+            vertical-align: middle;
+        }
+
+        .volver {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            text-decoration: none;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            width: fit-content;
+        }
+
+        .volver:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        a:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
