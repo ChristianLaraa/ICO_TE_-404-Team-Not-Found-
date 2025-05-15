@@ -5,87 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información de Isaac</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            width: 90%;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-        }
-        h1 {
-            font-family: 'Pacifico', cursive;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section img {
-            max-width: 150px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-        .section h2 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-        }
-        .section p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-        }
-        a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.2rem;
-            font-weight: bold;
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 10px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        a:hover {
-            background: rgba(255, 255, 255, 0.4);
-            transform: scale(1.05);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-        }
-    </style>
+    <link rel="stylesheet" href="/ProyectoParcial//css/stylesIsaac.css">
 </head>
-<body>
+<body class="body">
     <div class="container">
-        <h1>Información de Isaac</h1>
+        <h1 class="h1">Información de Isaac</h1>
         
         <!-- Fotografía -->
         <div class="section">
-            <h2>Fotografía</h2>
-            <img src="/ProyectoParcial/fotos/isaac.png" alt="Fotografía de Isaac">
+            <h2 class="sectionh2">Fotografía</h2>
+            <img class="sectionimg" src="/ProyectoParcial/fotos/integrantes/isaac.png" alt="Fotografía de Isaac">
         </div>
 
         <!-- Nombre -->
         <div class="section">
-            <h2>Nombre</h2>
-            <p>Isaac</p>
+            <h2 class="sectionh2">Nombre</h2>
+            <p class="sectionp">Isaac</p>
         </div>
 
         <!-- Tecnologías favoritas -->
         <div class="section">
-            <h2>Mis tecnologías favoritas</h2>
+            <h2 class="sectionh2">Mis tecnologías favoritas</h2>
             <ul style="list-style-type: disc; text-align: left; margin: 0 auto; display: inline-block;">
                 <li>Programación web</li>
                 <li>Edición de video</li>
@@ -96,14 +36,14 @@
 
         <!-- Semestre -->
         <div class="section">
-            <h2>Semestre</h2>
-            <p>Curso el 6to semestre</p>
+            <h2 class="sectionh2">Semestre</h2>
+            <p class="sectionp">Curso el 6to semestre</p>
         </div>
 
         <!-- Hobbie -->
         <div class="section">
-            <h2>Hobbies</h2>
-            <p>
+            <h2 class="sectionh2">Hobbies</h2>
+            <p class="sectionp">
                 Me gusta mucho comer con mis amigos, pasar un buen rato platicando y riéndonos. También disfruto salir con mi novia, ya sea a dar una vuelta o simplemente estar juntos.
                 En mis tiempos libres juego videojuegos, me entretienen y me ayudan a relajarme.
                 Además, me interesa seguir aprendiendo sobre mi carrera, porque quiero mejorar y entender bien lo que estoy estudiando.
@@ -113,24 +53,25 @@
 
         <!-- Redes sociales -->
         <div class="section">
-            <h2>Redes sociales</h2>
+            <h2 class="sectionh2">Redes sociales</h2>
             <div>
-                <a href="https://x.com/jmv_Isaac0411" target="_blank">
+                <a class="a" href="https://x.com/jmv_Isaac0411" target="_blank">
                     <img src="/ProyectoParcial/iconos/x.png" alt="X" style="width: 40px; margin: 10px;">
                 </a>
-                <a href="https://www.youtube.com/channel/UCm0X70qkrlhaTGhzLbyVT9g" target="_blank">
+                <a class="a" href="https://www.youtube.com/channel/UCm0X70qkrlhaTGhzLbyVT9g" target="_blank">
                     <img src="/ProyectoParcial/iconos/youtube.png" alt="YouTube" style="width: 40px; margin: 10px;">
                 </a>
-                <a href="https://github.com/IsaacRamirezC11" target="_blank">
+                <a class="a"  href="https://github.com/IsaacRamirezC11" target="_blank">
                     <img src="/ProyectoParcial/iconos/github.png" alt="GitHub" style="width: 40px; margin: 10px;">
                 </a>
-                <a href="https://www.instagram.com/jmv.isaac11/" target="_blank">
-                    <img src="/iconos/instagram.png" alt="Instagram" style="width: 40px; margin: 10px;">
+                <a class="a" href="https://www.instagram.com/jmv.isaac11/" target="_blank">
+                    <img src="/ProyectoParcial/iconos/instagram.png" alt="Instagram" style="width: 40px; margin: 10px;">
+
                 </a>
             </div>
         </div>
 
-        <a href="apartado4.html">Regresar a Información de Desarrolladores</a>
+        <a class="a" href="apartado4.html">Regresar a Información de Desarrolladores</a>
     </div>
 </body>
 </html>
